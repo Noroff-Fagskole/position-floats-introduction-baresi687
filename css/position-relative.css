@@ -1,0 +1,13 @@
+.container {
+  background-color: teal;
+  height: 50px;
+}
+
+/* position relative moves items relative to the parent
+sometimes used in hero banners or call to action boxes with
+text on top of the image */
+.relative-position {
+  position: relative;
+  top: 25px;
+  left: 440px;
+}

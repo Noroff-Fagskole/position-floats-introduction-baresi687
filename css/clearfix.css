@@ -1,0 +1,14 @@
+.float {
+  margin: 10px;
+  float: right;
+  height: 150px;
+}
+
+div {
+  border: 1px solid red;
+}
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: table;
+}
